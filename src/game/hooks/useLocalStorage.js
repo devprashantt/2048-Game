@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
  * @param {string} key
  * @param {any} initialValue
  */
+
 function useLocalStorage(key, initialValue) {
   const [value, setValue] = useState(initialValue);
 

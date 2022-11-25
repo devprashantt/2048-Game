@@ -6,7 +6,7 @@ function AboveGame() {
       <p className="game-intro">
         Join the tiles & get to <strong>2048</strong>
       </p>
-      <a href="/" className="restart-button">
+      <a href="/player" className="restart-button">
         New Game
       </a>
     </div>

@@ -1,0 +1,73 @@
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem 0;
+}
+.header .header_left .header_left-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #776e65;
+}
+.header .header_left .header_left-subheading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #776e65;
+  margin: 2rem 0;
+}
+.header .header_left .header_left-paragraph {
+  font-size: 1rem;
+  color: #776e65;
+}
+.header .header_left .header_left-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.header .header_left .header_left-buttons .link {
+  text-decoration: none;
+  color: #f9f6f2;
+}
+.header .header_left .header_left-buttons .link .button {
+  background-color: #8f7a66;
+  color: #f9f6f2;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.header .header_left .header_left-buttons .link .button:hover {
+  background-color: #a18c79;
+}
+.header .header_left .header_left-buttons .link .button a {
+  text-decoration: none;
+  color: #f9f6f2;
+}
+.header .header_left .header_left-buttons .button {
+  background-color: #8f7a66;
+  color: #f9f6f2;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.header .header_left .header_left-buttons .button:hover {
+  background-color: #a18c79;
+}
+.header .header_left .header_left-buttons .button a {
+  text-decoration: none;
+  color: #f9f6f2;
+}
+.header .header_right img {
+  height: 20rem;
+  width: 20rem;
+  transform: rotate(5deg);
+}/*# sourceMappingURL=Header.css.map */
