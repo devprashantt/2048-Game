@@ -1,9 +1,6 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable arrow-body-style */
-
 import React from 'react'
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
 
 import logo2048 from "../../assets/2048game.png"
 import './Header.css'
@@ -12,7 +9,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header_left'>
-                <div className='header_left-heading'>Project 2048 AL/ML</div>
+                <div className='header_left-heading'>Project 2048 AI/ML</div>
                 <div className='header_left-subheading'>Using AI/ML to beat Game 2048</div>
                 <div className='header_left-paragraph'>
                     The game was written by Italian web developer

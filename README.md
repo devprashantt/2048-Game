@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+# 2048 - A Online Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![2048-Game](https://socialify.git.ci/Runtime-Terror-Team/2048-Game/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FRuntime-Terror-Team%2F2048-Game%2Fmain%2Freadme%2Flogo.png&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# Table of Contents
 
-### `yarn start`
+- [Contents](#table-of-contents)
+    - [About The Project](#about-the-project)
+        - [Game Walkthrough](#game-walkthrough)
+        - [Extra Features](#extra-features)
+    - [Built With](#built-with)
+    - [Contributing](#contributing)
+        - [Special Thanks To](#special-thanks-to)
+        - [How To](#how-to)
+    - [License](#license)
+    - [Acknowledgements](#acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `yarn test`
+A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Game Walkthrough
 
-### `yarn build`
+<table border="0" align="center">
+  <tr>
+      <p align="center" >
+          <a href="https://runtime-terror-team.github.io/2048-Game" target="_blank">
+              <img align="center" src="./readme/gameplay.gif" alt="Basic composition: square and circle" />
+              <h4 align="center">Game Page</h4>
+          </a>
+      </p>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://runtime-terror-team.github.io/2048-Game" target="_blank">
+        <img src="./readme/game_complete.gif" alt="GameCompelete Popup" />
+        <h4 align="center">GameCompelete Popup</h4>
+      </a>
+    </td>
+    <td>
+    <a href="https://runtime-terror-team.github.io/2048-Game" target="_blank">
+        <img src="readme/game_over.gif" alt="GameOver Popup" />
+        <h4 align="center">GameOver Popup</h4>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://runtime-terror-team.github.io/2048-Game" target="_blank">
+        <img src="./readme/howtoplay.png" alt="How to Play Popup" />
+        <h4 align="center">How to Play Popup</h4>
+      </a>
+    </td>
+    <td>
+        <a href="https://runtime-terror-team.github.io/2048-Game" target="_blank">
+          <img src="readme/tips_tricks.gif" alt="Tips and Tricks Popup" />
+          <h4 align="center">Tips and Tricks Popup</h4>
+      </a>
+    </td>
+  </tr>
+</table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Extra Features
+* Store HighScore in Local Storage
+* Addition of Score Animation
+* Who first open the game first, HowToPlay Popup showup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Basic structure of the project repository 📂
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```terminal
+|- build              # production build
+|- public             # Any files within this directory will not be processed by Webpack but copied directly to the build folder.
+|- readme             # Contains files helps to create project readme
+|- src:               # Contains all source code for the React application.
+    |
+    |- assets         # Contains media file
+        |- image      # all image store here 
+    |- components     # Contains all the components used within the app.
+    |- helper         # Contains helper functions
+    |- hooks          # Contains custom hooks
+    |- pages          # Contaion pages used in the projects
+    |- styles         # Contains sass or css files.
+    |- App.js
+    |- index.js
+```
 
-### `yarn eject`
+## Built With
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- CONTRIBUTING -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![Contributors][contributors-shield]][contributors-url]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Special Thanks To
 
-## Learn More
+* [Bivas](https://github.com/Bivas-Biswas)
+* [Maseera](https://github.com/MaseeraAhmed)
+* [Soumyak](https://github.com/Soumyak10)
+* [Narendra](https://github.com/geeknarendra)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### How To
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- LICENSE -->
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![MIT License][license-shield]][license-url]
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [All Contributors](#special-thanks-to)
+- [InspireBy](https://play2048.co/)
+- [GameLogic](https://www.youtube.com/watch?v=ca0BEH2bBLs)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [GitHub Socialify](https://socialify.git.ci/)
+- [Img Shields](https://shields.io)
 
-### Advanced Configuration
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[contributors-url]: https://github.com/Runtime-Terror-Team/2048-Game/graphs/contributors
 
-### Deployment
+[license-shield]: https://img.shields.io/github/license/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[license-url]: https://github.com/Runtime-Terror-Team/2048-Game/blob/main/LICENSE

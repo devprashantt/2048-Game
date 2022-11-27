@@ -1,7 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable arrow-body-style */
-
 import React from 'react'
+
 import './About.css'
 
 const About = () => {

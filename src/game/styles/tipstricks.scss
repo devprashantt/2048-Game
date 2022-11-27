@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.TipsTricks {
+  max-width:450px;
+  position: absolute;
+  top: 0;
+  background: #F2E1C2;
+  animation: popup 0.3s ease forwards;
+  z-index: 10;
+
+  h1 {
+    color: #827254;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #827254;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .section p {
+    color: #827254;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.TipsTricks-close-btn{
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  right: 0;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: underline;
+  &:hover{
+    color: #9E005D;
+  }
+}
+
+.TipsTricks-back-btn{
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 40px;
+  &:hover{
+    color: #9E005D;
+  }
+}

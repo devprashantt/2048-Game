@@ -1,10 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable arrow-body-style */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
-
-
 import React from 'react'
+
 import './ProfileCard.css'
 
 const ProfileCard = (props) => {

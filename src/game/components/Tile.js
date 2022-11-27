@@ -1,33 +1,36 @@
 import React from 'react';
-import cn from 'classnames';
-import PropTypes from 'prop-types';
 
-function Tile({ id, x, y, value, isMerged, isNew }) {
-  return (
-    <div
-      key={id}
-      className={cn(`tile tile-${value} tile-position-${x}-${y}`, {
-        'tile-merged': isMerged,
-        'tile-new': isNew,
-      })}
-    >
-      <div className="tile-inner">{value}</div>
-    </div>
-  );
+function Tile({ tile }) {
+    // 1. tile
+    // 2. tile#
+    // 3. postion_#_#
+    // 4. row_from_#_to_#
+    // 5. col_from_#_to_#
+    // 6. isMoving
+    // 7. new
+    // 8. merged
+
+    let classArray = ['tile']
+    classArray.push('tile' + tile.value)
+
+    if (!tile.mergedInto) {
+        classArray.push(`position_${tile.row}_${tile.column}`)
+    }
+    if (tile.mergedInto) {
+        classArray.push('merged')
+    }
+    if (tile.isNew()) {
+        classArray.push('new')
+    }
+    if (tile.hasMoved()) {
+        classArray.push(`row_from_${tile.fromRow()}_to_${tile.toRow()}`)
+        classArray.push(`column_from_${tile.fromColumn()}_to_${tile.toColumn()}`)
+        classArray.push('isMoving')
+    }
+    let classes = classArray.join(" ")
+    return (
+        <span className={classes}>{tile.value}</span>
+    );
 }
-
-Tile.defaultProps = {
-  isMerged: undefined,
-  isNew: undefined,
-};
-
-Tile.propTypes = {
-  id: PropTypes.number.isRequired,
-  x: PropTypes.number.isRequired,
-  y: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-  isMerged: PropTypes.bool,
-  isNew: PropTypes.bool,
-};
 
 export default Tile;

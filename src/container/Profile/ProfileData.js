@@ -1,7 +1,3 @@
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line prettier/prettier
-// eslint-disable-next-line import/no-unresolved
-
 import picture1 from "../../assets/prashant.jpg"
 import picture2 from "../../assets/rishi.jpeg"
 import picture3 from "../../assets/priyanka.jpg"

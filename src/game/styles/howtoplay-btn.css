@@ -1,0 +1,29 @@
+.howtoplay-btn {
+  position: absolute;
+  right: 90%;
+  top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.howtoplay-btn .tooltiptext {
+  visibility: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-top: 10px;
+}
+.howtoplay-btn svg {
+  width: 40px;
+}
+.howtoplay-btn svg:hover {
+  fill: #9E005D;
+  transform: scale(1.1);
+  transition: all 0.07s ease-in-out;
+}
+.howtoplay-btn:hover .tooltiptext {
+  visibility: visible;
+}/*# sourceMappingURL=howtoplay-btn.css.map */
