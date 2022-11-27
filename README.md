@@ -1,7 +1,5 @@
 # 2048 - A Online Game
 
-![2048-Game](https://socialify.git.ci/Runtime-Terror-Team/2048-Game/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FRuntime-Terror-Team%2F2048-Game%2Fmain%2Freadme%2Flogo.png&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
-
 <!-- TABLE OF CONTENTS -->
 
 # Table of Contents
