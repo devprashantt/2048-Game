@@ -96,30 +96,6 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-[![Contributors][contributors-shield]][contributors-url]
-
-### Special Thanks To
-
-* [Bivas](https://github.com/Bivas-Biswas)
-* [Maseera](https://github.com/MaseeraAhmed)
-* [Soumyak](https://github.com/Soumyak10)
-* [Narendra](https://github.com/geeknarendra)
-
-### How To
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
-contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 <!-- LICENSE -->
 
 ## License
