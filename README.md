@@ -9,9 +9,6 @@
         - [Game Walkthrough](#game-walkthrough)
         - [Extra Features](#extra-features)
     - [Built With](#built-with)
-    - [Contributing](#contributing)
-        - [Special Thanks To](#special-thanks-to)
-        - [How To](#how-to)
     - [License](#license)
     - [Acknowledgements](#acknowledgements)
 
@@ -74,14 +71,26 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 |- public             # Any files within this directory will not be processed by Webpack but copied directly to the build folder.
 |- readme             # Contains files helps to create project readme
 |- src:               # Contains all source code for the React application.
+|
+    |- assets
+    |- container
     |
-    |- assets         # Contains media file
-        |- image      # all image store here 
-    |- components     # Contains all the components used within the app.
-    |- helper         # Contains helper functions
-    |- hooks          # Contains custom hooks
-    |- pages          # Contaion pages used in the projects
-    |- styles         # Contains sass or css files.
+        |- profile
+            |- profile-card
+            |- profile
+        |- header
+        |- about
+        |- main               # Contains main element of landing page
+    |- game:
+    |
+            |- assets         # Contains media file
+                |- image      # all image store here 
+            |- components     # Contains all the components used within the app.
+            |- helper         # Contains helper functions
+            |- hooks          # Contains custom hooks
+            |- pages          # Contaion pages used in the projects
+            |- styles         # Contains sass or css files.
+            |- game           # Conatin game main element
     |- App.js
     |- index.js
 ```
@@ -98,23 +107,13 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 
 ## License
 
-[![MIT License][license-shield]][license-url]
+MIT License
 
 ## Acknowledgements
 
-- [All Contributors](#special-thanks-to)
 - [InspireBy](https://play2048.co/)
 - [GameLogic](https://www.youtube.com/watch?v=ca0BEH2bBLs)
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Pages](https://pages.github.com)
 - [GitHub Socialify](https://socialify.git.ci/)
 - [Img Shields](https://shields.io)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
-
-[contributors-url]: https://github.com/Runtime-Terror-Team/2048-Game/graphs/contributors
-
-[license-shield]: https://img.shields.io/github/license/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
-
-[license-url]: https://github.com/Runtime-Terror-Team/2048-Game/blob/main/LICENSE
