@@ -81,6 +81,7 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
         |- header
         |- about
         |- main               # Contains main element of landing page
+        
     |- game:
     |
             |- assets         # Contains media file
@@ -91,6 +92,7 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
             |- pages          # Contaion pages used in the projects
             |- styles         # Contains sass or css files.
             |- game           # Conatin game main element
+            
     |- App.js
     |- index.js
 ```
