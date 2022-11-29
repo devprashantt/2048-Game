@@ -1,7 +1,5 @@
 # 2048 - A Online Game
 
-![2048-Game](https://socialify.git.ci/Runtime-Terror-Team/2048-Game/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FRuntime-Terror-Team%2F2048-Game%2Fmain%2Freadme%2Flogo.png&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
-
 <!-- TABLE OF CONTENTS -->
 
 # Table of Contents
@@ -11,9 +9,6 @@
         - [Game Walkthrough](#game-walkthrough)
         - [Extra Features](#extra-features)
     - [Built With](#built-with)
-    - [Contributing](#contributing)
-        - [Special Thanks To](#special-thanks-to)
-        - [How To](#how-to)
     - [License](#license)
     - [Acknowledgements](#acknowledgements)
 
@@ -76,14 +71,28 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 |- public             # Any files within this directory will not be processed by Webpack but copied directly to the build folder.
 |- readme             # Contains files helps to create project readme
 |- src:               # Contains all source code for the React application.
+|
+    |- assets
+    |- container
     |
-    |- assets         # Contains media file
-        |- image      # all image store here 
-    |- components     # Contains all the components used within the app.
-    |- helper         # Contains helper functions
-    |- hooks          # Contains custom hooks
-    |- pages          # Contaion pages used in the projects
-    |- styles         # Contains sass or css files.
+        |- profile
+            |- profile-card
+            |- profile
+        |- header
+        |- about
+        |- main               # Contains main element of landing page
+        
+    |- game:
+    |
+            |- assets         # Contains media file
+                |- image      # all image store here 
+            |- components     # Contains all the components used within the app.
+            |- helper         # Contains helper functions
+            |- hooks          # Contains custom hooks
+            |- pages          # Contaion pages used in the projects
+            |- styles         # Contains sass or css files.
+            |- game           # Conatin game main element
+            
     |- App.js
     |- index.js
 ```
@@ -96,51 +105,17 @@ A Popular Online 2048-Game. It is a Single-Player Sliding Tile Puzzle Game.
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-[![Contributors][contributors-shield]][contributors-url]
-
-### Special Thanks To
-
-* [Bivas](https://github.com/Bivas-Biswas)
-* [Maseera](https://github.com/MaseeraAhmed)
-* [Soumyak](https://github.com/Soumyak10)
-* [Narendra](https://github.com/geeknarendra)
-
-### How To
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
-contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 <!-- LICENSE -->
 
 ## License
 
-[![MIT License][license-shield]][license-url]
+MIT License
 
 ## Acknowledgements
 
-- [All Contributors](#special-thanks-to)
 - [InspireBy](https://play2048.co/)
 - [GameLogic](https://www.youtube.com/watch?v=ca0BEH2bBLs)
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Pages](https://pages.github.com)
 - [GitHub Socialify](https://socialify.git.ci/)
 - [Img Shields](https://shields.io)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
-
-[contributors-url]: https://github.com/Runtime-Terror-Team/2048-Game/graphs/contributors
-
-[license-shield]: https://img.shields.io/github/license/Runtime-Terror-Team/2048-Game.svg?style=for-the-badge
-
-[license-url]: https://github.com/Runtime-Terror-Team/2048-Game/blob/main/LICENSE
